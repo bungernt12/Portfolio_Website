@@ -1,0 +1,9 @@
+.projects {
+    width: 100%;
+}
+
+.projects img {
+    width: 49%;
+    border: 1px solid red;
+    margin: 0;
+}
