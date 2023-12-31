@@ -1,5 +1,5 @@
-/*const shrinkClick = event => {
+const shrinkClick = event => {
     event.target.style.width  = '20%';
 }
 
-document.addEventListener('onclick', shrinkClick);*/
+document.addEventListener('click', shrinkClick);
