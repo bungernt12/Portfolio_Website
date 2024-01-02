@@ -1,20 +1,33 @@
+html {
+    /*color/gradient doesn't go all the way to the bottom*/
+    background: linear-gradient(#132d66, #9198e5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .project-container {
     display: flex;
+    justify-content: center;
+    gap: 2%;
 }
 
 .hoverable-image {
     width: 40%;
     height: auto;
     transition: transform 0.3s ease-in-out;
+    border: 5px solid white;
+    /* the border radius is streched oddly with the shape of the image, and for some reason you can see in between the border and the image */
+    border-radius: 5%;
+    
 }
 
-/*#roshi {
-    z-index: 2;
-}
-
-#tagueMusic {
-    z-index: 1;
-}*/
 
 /*.hoverable-image:hover {
     transform: scale(1.2); /* You can adjust the scale factor as needed */
