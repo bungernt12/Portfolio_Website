@@ -1,9 +1,20 @@
-.projects {
-    width: 100%;
+.project-container {
+    display: flex;
 }
 
-.projects img {
-    width: 49%;
-    border: 1px solid red;
-    margin: 0;
+.hoverable-image {
+    width: 40%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }
+
+/*#roshi {
+    z-index: 2;
+}
+
+#tagueMusic {
+    z-index: 1;
+}*/
+
+/*.hoverable-image:hover {
+    transform: scale(1.2); /* You can adjust the scale factor as needed */
