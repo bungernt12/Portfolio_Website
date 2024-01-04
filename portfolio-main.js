@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', function () {
         image.addEventListener('mouseenter', function () {
             // Grow the hovered image
             this.style.transform = 'scale(1.2)';
-            this.style.zIndex = '2'
+            this.style.zIndex = '20'
             //z-index didn't work to make roshi above 
             
             // Shrink the other images
             images.forEach(otherImage => {
                 if (otherImage !== this) {
                     otherImage.style.transform = 'scale(1)';
-                    otherImage.style.zIndex = '1';
+                    otherImage.style.zIndex = '10';
                 }
             });
         });

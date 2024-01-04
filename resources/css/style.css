@@ -28,6 +28,19 @@ main {
     
 }
 
+#roshi {
+    transform-origin: left;
+}
+
+
+
+#nextProject {
+    transform-origin: right;
+    background-color: rgb(255, 255, 181);
+    color: #132d66;
+    font-size: 2rem;
+    text-align: center;
+}
 
 /*.hoverable-image:hover {
     transform: scale(1.2); /* You can adjust the scale factor as needed */
