@@ -32,8 +32,6 @@ main {
     transform-origin: left;
 }
 
-
-
 #nextProject {
     transform-origin: right;
     background-color: rgb(255, 255, 181);
@@ -42,5 +40,6 @@ main {
     text-align: center;
 }
 
-/*.hoverable-image:hover {
-    transform: scale(1.2); /* You can adjust the scale factor as needed */
+i {
+    font-size: 4rem;
+}
