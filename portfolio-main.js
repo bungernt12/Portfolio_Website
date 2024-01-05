@@ -43,3 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // i++;
     });
 });
+
+let codingStartClock = () => {
+    document.getElementById
+}
