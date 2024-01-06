@@ -48,3 +48,16 @@ i {
     font-size: 4rem;
 }
 
+#aboutMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5%;
+    font-size: 1.5rem;
+}
+
+
+#aboutMe img{
+    width: 70%;
+    padding: 10%;
+
+}
